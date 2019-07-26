@@ -1,5 +1,5 @@
 #! /usr/bin/env node
-//1、执行命令后会执行 bin/www.js
+//1、执行命令后会执行 bin/www.js使用yargs命令行
 const yargs = require('yargs');
 let argv = yargs.option('port',{
     alias: 'p',
